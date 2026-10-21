@@ -5,8 +5,28 @@
 所有数据、来源、账本、任务与错误均为虚构 Mock；日志示例行号不保证与后续代码相同。
 Mock 诊断仅做简化文本匹配，不能用于证明真实召回质量。源码位置与业务阶段已另用真实 Python 测试验证。
 
-截图覆盖 9 种记忆类型、版本/关联、编辑/来源/账本、运行检测/确认、诊断命中/空结果、日志明细/筛选/手机布局。
-手机深色记忆库沿用此前预览；其余截图为本次复核更新。
+## 冷蓝主题（当前界面）
+
+参考人物发色与浅蓝配饰，使用冷蓝主色、浅蓝辅助色与少量淡粉装饰。
+实色选中项和首张统计卡、浅蓝标题区、白色内容卡片形成层次；警告、错误与正常状态保留独立语义色。
+本组 11 张预览使用同一套生产组件，覆盖浅深主题、桌面与 390px 手机布局。
+
+| 页面 | 浅色 | 深色 |
+|---|---|---|
+| 记忆库完整页面 | [查看](images/theme-memory-light.png) | [查看](images/theme-memory-dark.png) |
+| 生命周期日志与异常展开 | [查看](images/theme-logs-light.png) | [查看](images/theme-logs-dark.png) |
+| 手机记忆库 | [查看](images/theme-mobile-light.png) | [查看](images/theme-mobile-dark.png) |
+| 编辑与审计 | — | [查看](images/theme-editor-dark.png) |
+| 手机详情抽屉 | — | [查看](images/theme-mobile-detail-dark.png) |
+| 运行与任务 | [查看](images/theme-runtime-light.png) | — |
+| 召回诊断结果 | [查看](images/theme-diagnostics-light.png) | — |
+
+![桌面主题概览](images/theme-overview.png)
+
+## 旧主题功能参考（25 张）
+
+以下保留早期截图，用于展示九种类型、版本关联、来源账本、任务确认与诊断空结果等功能。
+颜色以当前主题预览为准；旧截图不代表最新调度数量与账本字段值。
 
 | 功能 | 完整预览 |
 |---|---|
